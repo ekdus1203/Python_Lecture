@@ -9,7 +9,7 @@ cur = con.cursor()
 #데이터를 담을 테이블을 생성
 cur.execute("create table PhoneBook (name text, phoneNum tesxt);")
 #1건을 입력
-cur.execute("insert into PhoneBook value ('derick', '010-111');")
+cur.execute("insert into PhoneBook values ('derick', '010-111');")
 
 #결과를 검색
 cur.execute("select * from PhoneBook;")
